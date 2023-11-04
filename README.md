@@ -29,7 +29,6 @@ You need to have Node.js and npm (Node Package Manager) installed on your machin
    npx tailwindcss init -p
 
    Configure your template paths tailwind.config.js
-    ```bash
     /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -40,4 +39,5 @@ export default {
     extend: {},
   },
   plugins: [],
-} ```
+};
+
