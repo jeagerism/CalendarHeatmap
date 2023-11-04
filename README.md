@@ -2,6 +2,8 @@
 
 This is a React application that demonstrates the usage of a calendar heatmap component. The heatmap shows random values for each day of the year, with the ability to click on each day and display a tooltip with additional information.
 
+![My Image](my-image.jpg)
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
