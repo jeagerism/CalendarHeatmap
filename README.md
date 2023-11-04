@@ -12,7 +12,32 @@ You need to have Node.js and npm (Node Package Manager) installed on your machin
 
 ### Installation
 
-1. create Vite.
+1. install modules ReactJSX.
 
    ```bash
-   npm create vite@latest
+   npm install
+   
+2. install dependencies calendar-heatmap && tooltip
+
+    ```bash
+   npm install react-calendar-heatmap react-tooltip
+
+3. install tailwindcss
+
+    ```bash
+   npm install -D tailwindcss postcss autoprefixer
+   npx tailwindcss init -p
+
+   Configure your template paths tailwind.config.js
+    ```bash
+    /** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
