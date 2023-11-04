@@ -43,5 +43,10 @@ You need to have Node.js and npm (Node Package Manager) installed on your machin
      plugins: [],
    };
 
+5. Add the Tailwind directives to your index.css
 
+   ```bash
+   @tailwind base;
+   @tailwind components;
+   @tailwind utilities;
 
