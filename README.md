@@ -28,16 +28,19 @@ You need to have Node.js and npm (Node Package Manager) installed on your machin
    npm install -D tailwindcss postcss autoprefixer
    npx tailwindcss init -p
 
-   Configure your template paths tailwind.config.js
-    /** @type {import('tailwindcss').Config} */
-export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-};
+4. Configure your template paths in the tailwind.config.js file:
+
+   ```bash
+      /** @type {import('tailwindcss').Config} */
+   export default {
+     content: [
+       "./index.html",
+       "./src/**/*.{js,ts,jsx,tsx}",
+     ],
+     theme: {
+       extend: {},
+     },
+     plugins: [],
+   };
+
 
