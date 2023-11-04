@@ -31,7 +31,7 @@ You need to have Node.js and npm (Node Package Manager) installed on your machin
 4. Configure your template paths in the tailwind.config.js file:
 
    ```bash
-      /** @type {import('tailwindcss').Config} */
+   /** @type {import('tailwindcss').Config} */
    export default {
      content: [
        "./index.html",
@@ -42,5 +42,6 @@ You need to have Node.js and npm (Node Package Manager) installed on your machin
      },
      plugins: [],
    };
+
 
 
